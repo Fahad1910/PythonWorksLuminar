@@ -1,0 +1,13 @@
+# data structures and algorithm(dsa) 
+
+# linear search
+# binary search
+# word count
+# first recursive 
+# sort
+# bubble sort
+# quick sort
+# merge sort
+# dfs(depth first search)
+# bfs(breadth first search)
+# dijkstra algorithm

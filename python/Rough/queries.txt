@@ -1,0 +1,28 @@
+to create database :: create database database_name;
+to show database :: show databases;
+to use a database :: use database_name;
+to create a table in database :: create table table_name;
+to delete a database :: drop database_name;
+listing all tables :: show tables;
+inserting records into tables :: insert into table_name(id,name,........,) values(1,'veg friedrice',......,);
+see all the records in the table :: select * from table_name;
+to view name and price from the table :: select name,price table_name;
+
+select type,count(*) from items group by(type); used to group the type
+
+select * from items order by price asc limit 3;  to sort the records in the ascending order. By adding limit we can limit the sorting order
+
+select * from items order by price desc limit 2; to sort the records in the descending order. By adding limit we can limit the sorting order
+
+select count(*) from items where name='biriyani'; where we can locate the name
+
+update items set price=170 where id=2; it is used to update the records
+
+delete from items where id=1; used to delete a record in table
+
+truncate table_name;  used to delete the all the record in table 
+
+drop table items; used to delete the entire table
+
+alter table items add column course enum('maincourse','starter','dessert') default 'maincourse';  used to bring a changes in table by adding column by the name course by using enum insted of varchar it only allow the "enum('maincourse','starter','dessert')" selcted item will show and adding default as main course for automatically set maincourse
+

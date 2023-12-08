@@ -1,0 +1,10 @@
+define = set()
+        {10,20}
+
+duplication allowed or not = not allowed
+
+insertion order = not preserved
+               indexing not suported
+
+mutable = mutable
+
